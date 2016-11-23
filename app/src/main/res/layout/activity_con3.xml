@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:text="Aidant 1"
+        android:textSize="25dp"
+        android:layout_marginTop="125dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView3" />
+
+
+    <EditText
+        android:ems="10"
+        android:layout_columnSpan="2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/Num1"
+        android:layout_below="@+id/textView3"
+        android:inputType="number"
+        android:layout_alignStart="@+id/textView3" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textSize="25dp"
+        android:id="@+id/buttonSend"
+        android:layout_marginBottom="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/Num1" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:text="Aidant 2"
+        android:textSize="25dp"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/Num1"
+        android:layout_alignStart="@+id/Num1" />
+
+    <EditText
+        android:ems="10"
+        android:layout_columnSpan="2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/Num2"
+        android:layout_below="@+id/textView4"
+        android:inputType="number"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:text="Aidant 3"
+        android:textSize="25dp"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/Num2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:ems="10"
+        android:layout_columnSpan="2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/Num3"
+        android:layout_below="@+id/textView5"
+        android:inputType="number"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
